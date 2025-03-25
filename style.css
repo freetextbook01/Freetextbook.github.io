@@ -99,3 +99,28 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+button:hover, .btn:hover {
+    background-color: #0056b3; /* رنگ تیره‌تر هنگام هاور */
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffcc00; /* تغییر رنگ لینک‌ها هنگام هاور */
+    text-decoration: underline;
+    }
+.why-freetextbook {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 80%;
+}
+.section {
+    margin-bottom: 50px; /* فاصله بین هر بخش */
+}
+
+button, .btn {
+    margin: 10px 5px; /* فاصله دکمه‌ها از هم */
+    padding: 10px 20px; /* بزرگ‌تر کردن دکمه‌ها */
+}
