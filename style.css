@@ -1,39 +1,101 @@
+/* تنظیمات کلی */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    background-color: #f4f4f4;
-    padding: 20px;
-}
-h1 {
-    color: #333;
-}
-p {
-    color: #555;
 }
 
+/* استایل منو */
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
-
+nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
+    display: flex;
 }
-
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
-
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
-
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+/* بخش معرفی سایت */
+header {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    padding: 50px 20px;
+}
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+header .btn {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+header .btn:hover {
+    background-color: #ddd;
+}
+
+/* بخش دوره‌ها */
+.courses {
+    padding: 40px 20px;
+}
+.courses h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.course-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.course-card {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.course-card:hover {
+    background: #ddd;
+}
+
+/* فوتر */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
 }
